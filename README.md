@@ -1,14 +1,12 @@
 
-# 2024 SISMID Spatial Epidemiology
+# 2025 SISMID Spatial Epidemiology
 
-**Course Dates**: Mon, July 15 to Wed, July 17
+**Course Dates**: Mon, July 21 to Wed, July 23
 
 ## Introduction
 
-Welcome to the 2024 SISMID course on Spatial Statistics for Epidemiology and Public Health! 
+Welcome to the 2025 SISMID course on Spatial Statistics for Epidemiology and Public Health! 
 Spatial methods are now used in many disciplines and play an important role in epidemiology and public health. This module gives an introduction to spatial methods. In particular, we will present methods for assessment of clustering, cluster detection, spatial regression, small area estimation, and disease mapping. Methods will be described for both point data (in which cases and non-cases (or a sample thereof) have an associated point location) and count data (in which the numbers of cases and non-cases in a set of geographical areas are available).
-
-An introduction to Geographic Information Systems (GIS) will be provided. The important extension to space-time analysis will be described, which is crucial for the analysis of infectious disease data with a spatial component.
 
 Many examples will be presented, with analysis carried out in the R programming environment.
 
@@ -18,7 +16,7 @@ This module assumes knowledge of the material in Module 1: Probability and Stati
 
 ## Installing R and RStudio
 
-This SISMID module exclusively uses R. We recommend R 4.0 and above. You can download a recent version [here](https://www.r-project.org/).
+This SISMID module exclusively uses R. We recommend R 4.5 and above. You can download a recent version [here](https://www.r-project.org/).
 
 We also recommend using RStudio as the main GUI interface. You can install the free version [here](https://posit.co/download/rstudio-desktop/). 
 
@@ -56,6 +54,8 @@ In general, you will need to
 
 [Waller, L. and Gotway, C. (2004). Applied Spatial Statistics for Public Health Data. New York, John Wiley and Sons.](https://onlinelibrary-wiley-com.proxy.library.emory.edu/doi/book/10.1002/0471662682)
 
+[Analyzing US Census Data: Methods, Maps, and Models in R.](https://walker-data.com/census-r/index.html)
+
 [Geocomputation with R](https://r.geocompx.org/index.html)
 
 [Spatial Data Science](https://r-spatial.org/book/)
@@ -72,4 +72,4 @@ If you have any questions feel free to contact the following course instructors 
 
 Instructors: [Lance Waller](mailto:lwaller@emory.edu), [Howard Chang](mailto:hhchang.emory.edu)
 
-Teaching Assistant: [Natalie Olson](mailto:natalie.olson@emory.edu)
+Teaching Assistant: [Thomas Hsiao](mailto:thomas.hsiao@emory.edu)
