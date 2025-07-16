@@ -16,9 +16,10 @@ pacman::p_load(sf, #replaces "maptools", "rgdal" and other deprecated packages
                RColorBrewer, # creates nice color schemes
                spgwr, # Adds the geographically weighted regression functions
                here, # For constructing filepaths relative to root directory
-               geoR
+               geoR,
+               cowplot
                )
-load ("data/dat_krig.RData")
+load (here("data/dat_krig.RData"))
 ```
 
 ***

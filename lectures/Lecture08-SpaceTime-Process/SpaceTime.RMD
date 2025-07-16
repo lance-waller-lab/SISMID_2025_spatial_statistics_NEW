@@ -15,9 +15,9 @@ output:
 Specify working directory and load R data file. The dataframe contains annual cases of chlamydia for 18 years (2002 to 2019) for each of the 159 county in Georgia. The rate is also given per 100,000 people. 
 
 ```{r}
-
+library(here)
 ## Select "Chlamydia_GA.RData" from "files" tab 
-load ("Chlamydia_GA.RData")
+load (here("data/Chlamydia_GA.RData"))
 str (dat)
 ```
 
