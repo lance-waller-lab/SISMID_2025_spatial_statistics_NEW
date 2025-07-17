@@ -32,7 +32,7 @@ The [INLA](https://www.r-inla.org/) package performs approximate Bayesian infere
 
 ## How to access code 
 
-1. Go to the gree "Code" button near the top of this page, right click, and download as a zip file to your computer.
+1. Go to the green "Code" button near the top of this page, click, and download as a zip file to your computer.
 2. Save the zip file to a directory of your choice, then unzip the file.   You will see a folder of lectures, a folder for data, etc.
 3. IMPORTANT:  You will also see a file 2025-SISMID.Rproj this will pull in all of the lab code and data as a project.
 4. If you are unfamiliar with R/RStudio, you can focus on reading through the lab pdfs to see examples of what you can do.
