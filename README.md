@@ -32,10 +32,11 @@ The [INLA](https://www.r-inla.org/) package performs approximate Bayesian infere
 
 ## How to access code 
 
-In general, you will need to 
-
-1. [**Clone** the module repository from GitHub to a filepath on your local desktop](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
-2. [Open the code in RStudio Desktop by opening the R Project file `2023-SISMID-Spatial-Epi.Rproj`](https://support.posit.co/hc/en-us/articles/200526207-Using-RStudio-Projects). 
+1. Go to the gree "Code" button and download as a zip file to your computer.
+2. Save the zip file to a directory of your choice, then unzip the file.   You will see a folder of lectures, a folder for data, etc.
+3. IMPORTANT:  You will also see a file 2025-SISMID.Rproj this will pull in all of the lab code and data as a project.
+4. If you are unfamiliar with R/RStudio, you can focus on reading through the lab pdfs to see examples of what you can do.
+5. If you are familiar with R/RStudio, you can try out the Rmd code.
 
 ## Schedule
 
