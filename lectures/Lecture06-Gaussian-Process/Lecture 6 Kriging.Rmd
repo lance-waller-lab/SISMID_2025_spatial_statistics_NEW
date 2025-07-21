@@ -18,7 +18,7 @@ pacman::p_load(sf, #replaces "maptools", "rgdal" and other deprecated packages
                here, # For constructing filepaths relative to root directory
                geoR
                )
-load ("dat_krig.RData")
+load (here("data/dat_krig.RData"))
 ```
 
 ***
