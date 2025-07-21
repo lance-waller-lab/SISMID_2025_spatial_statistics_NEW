@@ -104,8 +104,8 @@ Next we will extend the additive random effects to spatially dependent (via CAR 
 library (spdep)
 dat_proj = st_transform(county.map, crs = "ESRI:102004")
 nb = poly2nb (dat_proj)
-nb2INLA ("adj.txt", nb) #write out a file
-G <- inla.read.graph(filename = "adj.txt") #read in to get INLA's graph format
+nb2INLA (here("lectures/Lecture08-SpaceTime-Process/adj.txt"), nb) #write out a file
+G <- inla.read.graph(filename = here("lectures/Lecture08-SpaceTime-Process/adj.txt")) #read in to get INLA's graph format
 
 dat$ID_space = as.numeric (factor (dat$FIPS))
 dat$ID_space_2 = dat$ID_space

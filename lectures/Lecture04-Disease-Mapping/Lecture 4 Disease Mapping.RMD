@@ -90,8 +90,8 @@ We will use INLA here to perform Bayesian estimation. INLA is an efficient appro
 dat.areal$areal_ID = 1:nrow (dat.areal) #Create a county ID from 1 to 226
 
 #INLA needs a specific summary of adjacency structure
-nb2INLA ("adj.txt", nb) #write out a file
-G <- inla.read.graph(filename = "adj.txt") #read in to get INLA's graph format
+nb2INLA (here("lectures/Lecture04-Disease-Mapping/adj.txt"), nb) #write out a file
+G <- inla.read.graph(filename = here("lectures/Lecture04-Disease-Mapping/adj.txt")) #read in to get INLA's graph format
 
 #Fit exchangeable (random effect model)
 #Note: "E" here is the offset and it does not need to be log-transofrmed
