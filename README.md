@@ -28,7 +28,7 @@ The module makes use of other specific R packages as well. You can install them 
 
 You will need to download the INLA package to run the code in this module. 
 
-The [INLA](https://www.r-inla.org/) package performs approximate Bayesian inference for latent Gaussian models. Installing the package is a bit different than normal since it is not on CRAN, the central software repository for R packages. Detailed instructions for installing the stable/testing can be found [here](https://www.r-inla.org/download-install).
+The [INLA](https://www.r-inla.org/) package performs approximate Bayesian inference for latent Gaussian models. Installing the package is a bit different than normal since it is not on CRAN, the central software repository for R packages. Detailed instructions for installing the stable/testing can be found [here](https://www.r-inla.org/download-install). *Update:* We recommend installing with the command ` remotes::install_version("INLA", version="23.05.30",repos=c(getOption("repos"),INLA="https://inla.r-inla-download.org/R/testing"), dep=TRUE)`.
 
 ## How to access code 
 
