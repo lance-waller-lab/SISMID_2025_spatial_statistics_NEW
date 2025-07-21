@@ -19,8 +19,9 @@ We will first load a standard data frame consists of several county-level variab
 * Income: median household income from Census 2000
 * inc: chlamydia incidence per 10,000 population
 ```{r}
-setwd ("H:/Teaching/Bios737 Spatial Analysis/2025 SISMID/Module 3")
-load ("Data.RData")
+#setwd ("H:/Teaching/Bios737 Spatial Analysis/2025 SISMID/Module 3")
+library(here)
+load (here("data/Data.RData"))
 summary (dat)
 ```
 
